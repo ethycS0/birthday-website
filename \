@@ -8,17 +8,17 @@ body {
   background-color: #FFC0CB;
 }
 .timer {
-  background-color: #FFFFFF;
   width: 640px;
-  height: 200px;
+  height: 400px;
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  top: -700px;
+  top: -100;
   bottom: 0;
   -webkit-perspective: 1200px;
   perspective: 1200px;
+  transition: 1s;
 }
 
 .september {
@@ -28,7 +28,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     width: 200ppx;
-    font-size: 40px;    
+    font-size: 50px;    
 }
 .card {
   width: 640px;
@@ -58,8 +58,8 @@ body {
 }
 .inside {
   background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
-  line-height: 1;
-  padding: 0 10px;
+  line-height: 3;
+  padding: 0 20px;
   text-align: center;
   display: flex;
   flex-direction: column;

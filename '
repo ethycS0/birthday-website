@@ -7,28 +7,11 @@
 body {
   background-color: #FFC0CB;
 }
-.timer {
-  background-color: #FFFFFF;
-  width: 640px;
-  height: 200px;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: -700px;
-  bottom: 0;
-  -webkit-perspective: 1200px;
-  perspective: 1200px;
-}
 
-.september {
-    padding: 100px 40px;
+p {
     display: inline-flex;
     height: 70px;
-    align-items: center;
-    justify-content: flex-start;
     width: 200ppx;
-    font-size: 40px;    
 }
 .card {
   width: 640px;
@@ -58,8 +41,8 @@ body {
 }
 .inside {
   background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
-  line-height: 1;
-  padding: 0 10px;
+  line-height: 3;
+  padding: 0 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
